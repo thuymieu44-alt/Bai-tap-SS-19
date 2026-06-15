@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS_2.css">
+</head>
+<body>
+    <div class="container">
+      <h2 class="text-center">Task Management</h2>
+
+      <form id="form">
+        <input type="hidden" name="courseId" />
+        <span>
+          <input type="text" name="content" class="content" placeholder="Content" />
+        </span>
+        <span>
+          <input type="date" name="dueDate" class="date" />
+        </span>
+        <span>
+          <select class="status" name="status">
+            <option selected>Choose status</option>
+            <option value="Pending">Pending</option>
+            <option value="Completed">Completed</option>
+          </select>
+        </span>
+        <span>
+          <input type="text" name="assignedTo" class="name" placeholder="Username" />
+        </span>
+        <span>
+          <button type="submit" class="btn-submit">Submit</button>
+        </span>
+      </form>
+
+      <table class= "table-bordered">
+        <thead class="table-light">
+          <tr>
+            <th>#</th>
+            <th>Content</th>
+            <th>Due date</th>
+            <th>Status</th>
+            <th>Assigned to</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="tbody">
+            <!-- <tr>
+                <td>1</td>
+                <td>Learn Javascript Session 01</td>
+                <td>2023-04-17</td>
+                <td>Pending</td>
+                <td>Anh Bách</td>
+                <td><span>
+                    <button class="btnRe">Sửa</button>
+                    <button class="btnDelete">Xóa</button>
+                </span></td>
+            </tr> -->
+        </tbody>
+      </table>
+    </div>
+
+    <script src="./JS_2.js"></script>
+</body>
+</html>

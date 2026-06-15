@@ -1,0 +1,30 @@
+.container {
+  max-width: 900px;
+  margin-top: 20px;
+  background-attachment:local;
+}
+h2{
+    text-align: center;
+}
+table, th, td {
+  margin-top: 20px;
+  border-bottom: 1px solid black;
+
+}
+.btn-primary {
+    background-color: blue;
+    color: white;
+    border-radius: 2px;
+}
+th{
+    background-color: rgb(217, 214, 214);
+}
+input, .form-select, .btn-primary{
+    font-size: 18px;
+}
+.table-bordered{
+    width: 100%;
+    text-align: center;
+}
+.btnDelete, .btnRe{
+}
